@@ -1,0 +1,5 @@
+<%= render @friend %>
+
+<div>
+  <%= button_to "Delete friend", @friend, method: :delete, class:"btn btn-danger", data: { confirm: 'Are you sure?'} %>
+</div>
